@@ -4,7 +4,7 @@ namespace: website-slide
 
 image:
   repository: riqimaruq/website-slide
-  tag: "3"
+  tag: "4"
   pullPolicy: Always
 
 service:
