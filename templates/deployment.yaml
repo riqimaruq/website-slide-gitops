@@ -13,7 +13,7 @@ spec:
         app: website-slide
     spec:
       containers:
-        - name: website-klinik
+        - name: website-slide
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
