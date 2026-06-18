@@ -1,0 +1,23 @@
+replicaCount: 2
+
+namespace: website-slide
+
+image:
+  repository: riqimaruq/website-slide
+  tag: "3"
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: false
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: []
